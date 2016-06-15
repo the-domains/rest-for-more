@@ -1,14 +1,26 @@
-layout_spectrum: 0.7605191334150732
-typography_spectrum: 0.12474806210957468
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+typography_spectrum: 0.1247480621095747
 color:
-  brandStrength: 0.2822723048739135
-  lightness: 0.1294848162215203
   saturation: 0.4366306534502655
+  brandStrength: 0.2822723048739135
   rhythmicContrast: 0.4790094408672303
   brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
+    - '#004358'
+    - '#1F8A70'
+    - '#BEDB39'
+    - '#FFE11A'
+    - '#FD7400'
+  lightness: 0.1294848162215203
+layout_spectrum: 0.4731183
 name: Rest for More
