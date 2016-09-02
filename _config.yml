@@ -1,15 +1,3 @@
-collections:
-  - index:
-      path: /
-      number: 15
-      paginate: true
-      navigable: true
-    permalink:
-      path: '/:title/'
-    feed:
-      path: /rss.xml
-      format: rss
-      number: 10
 typography_spectrum: 0.1247480621095747
 color:
   saturation: 0.4366306534502655
@@ -24,3 +12,16 @@ color:
   lightness: 0.1294848162215203
 layout_spectrum: 0.4731183
 name: Rest for More
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+title: REST FOR MORE
